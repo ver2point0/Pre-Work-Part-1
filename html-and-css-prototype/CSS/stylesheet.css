@@ -24,7 +24,14 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+/* The following font information and color codes are provided for you.
+They do not match the prototype exactly, but they are fine to use for the assignment
+and doing so does not count against you.
+They are simply meant to help you save time.
+We would like everyone to have as close to a pixel-perfect match to the prototype as possible.
+If you do find a font/color that matches more precisely,
+please share it with the team so we can improve the activity for future applicants.
+Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
@@ -40,3 +47,117 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.project-funding {
+	background-color: #424242;
+	color: #eaeaea;
+	text-align: center;
+	height: 45px;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 14px;
+	font-size: 14px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+}
+
+.box {
+	box-sizing: border-box;
+	margin: auto;
+	max-width: 265px;
+	border: 1px solid #eaeaea;
+}
+
+.triangleDown {
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 7px solid #424242;
+	margin-left: 85%;
+	margin-top: 13px;
+}
+
+.progress-bar {
+	max-width: 265px;
+	background-color: #f2f2f2;
+	padding-bottom: 0px;
+	margin-top: 10px;
+}
+
+.progress-bar div {
+	background-color: #ef5f3c;
+	width: 75%;
+	height: 12px;
+}
+
+.status-box {
+	border-top: 0px;
+	padding: 20px;
+	font-size: 14px;
+	color: #777777;
+	font-family: "rooney-sans", Aveni-Book, Calibri, sans-serif;
+}
+
+.small-box {
+	box-sizing: border-box;
+	display: grid;
+	grid-template: 100%/50% 50%;
+	height: 50px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin-bottom: 8px;
+}
+
+.default-donation {
+	border-radius: 5px;
+	width: 100px;
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #eaeaea;
+	margin: 0px 0px;
+	font-size: 18px;
+}
+
+.give-button {
+	background-color: #1cbc2c;
+	color: #ffffff;
+	border-radius: 5px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	margin: 0px 0px 0px 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.link-box {
+	display: grid;
+	grid-template: 100%/50% 50%;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 40px;
+	width: 265px;
+	font-size: 13px;
+	color: #777777;
+	font-weight: bold;
+	font-family: "rooney-san", Avenir-Book, Calibri, sans-serif;
+}
+
+.save-button {
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	text-align: center;
+	margin: 0px 15px 0px 0px;
+	width: 122px;
+	padding-top: 10px;
+}
+
+.share-button {
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+	width: 118px;
+	padding-top: 10px;
+}
